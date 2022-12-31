@@ -15,6 +15,7 @@ body {
   
   .status {
     margin-bottom: 10px;
+    text-align: center;
   }
   
   .square {
@@ -24,12 +25,12 @@ body {
     font-size: 24px;
     font-weight: bold;
     line-height: 34px;
-    height: 34px;
+    height: 60px;
     margin-right: -1px;
     margin-top: -1px;
     padding: 0;
     text-align: center;
-    width: 34px;
+    width: 60px;
   }
   
   .square:focus {
@@ -47,5 +48,15 @@ body {
   
   .game-info {
     margin-left: 20px;
+   
   }
+  .board {
+    position: absolute ;
+    top: 20%;
+    bottom: 50%;
+    right: 50%;
+    
+    
+  }
+  
   
